@@ -1,0 +1,25 @@
+{
+	"nodes":[
+		{"id":"94989f6f3dcc96ef","x":-620,"y":-100,"width":360,"height":80,"type":"text","text":"Défense de l'environnement\n="},
+		{"id":"223fde856a686887","x":-120,"y":40,"width":920,"height":480,"type":"text","text":"==Etude== : Statista , Global Witness\n\n- Assassinats de défenseurs de l'environnement depuis 2010 dans le monde \n\n\n> [!note] Monde \n>  2010 : 88 => 2017 : 207\n> Forte augmentation (sauf entre 2013 et 2014 avec 92 et 116)\n\n> [!NOTE] Répartition par pays en 2017\n> Pérou : 8 \n> Brésil : 55\n> Reste du monde : 31\n> Ecart entre certains pays\n>\n\n==NB== : Informations disponibles étant extrêmement limités -> chiffres en réalités probablement beaucoup plus élevés "},
+		{"id":"990669c26822cd85","x":-565,"y":-324,"width":250,"height":60,"type":"text","text":"Exemple de conséquence du dérèglement climatiques"},
+		{"id":"94bd169bf4bc9af1","x":106,"y":-324,"width":160,"height":60,"type":"text","text":"Amérique latine"},
+		{"id":"6e4a35bd97b48150","x":-189,"y":-324,"width":209,"height":60,"type":"text","text":"Source : Cepaic 2010 GIEC"},
+		{"id":"9299b060d0e4e9a7","x":340,"y":-560,"width":250,"height":60,"type":"text","text":"Zones où la biodiversité est gravement menacée"},
+		{"id":"3c5ad72b01330a1f","x":379,"y":-325,"width":250,"height":60,"type":"text","text":"Vulnérabilité accrue aux aléas extrêmes (ouragans...)"},
+		{"id":"10761dc1a09d59d3","x":343,"y":-165,"width":357,"height":105,"type":"text","text":"Récifs de corail et mangroves menacés par l'augmentation, de la température de la mer ou de son niveau "}
+	],
+	"edges":[
+		{"id":"9cf89b8f05bb6b5e","fromNode":"94989f6f3dcc96ef","fromSide":"bottom","toNode":"223fde856a686887","toSide":"left","label":"Une activité risquée "},
+		{"id":"96a0ae499d33b56a","fromNode":"94989f6f3dcc96ef","fromSide":"top","toNode":"990669c26822cd85","toSide":"bottom"},
+		{"id":"624db779d2e284d8","fromNode":"94bd169bf4bc9af1","fromSide":"right","toNode":"9299b060d0e4e9a7","toSide":"left"},
+		{"id":"922dd26bc177fa12","fromNode":"990669c26822cd85","fromSide":"right","toNode":"6e4a35bd97b48150","toSide":"left"},
+		{"id":"3dc073a232855cd2","fromNode":"6e4a35bd97b48150","fromSide":"right","toNode":"94bd169bf4bc9af1","toSide":"left"},
+		{"id":"5518211040bce89a","fromNode":"94bd169bf4bc9af1","fromSide":"right","toNode":"3c5ad72b01330a1f","toSide":"left"},
+		{"id":"74d161fbea996f0f","fromNode":"94bd169bf4bc9af1","fromSide":"right","toNode":"10761dc1a09d59d3","toSide":"left"}
+	],
+	"metadata":{
+		"version":"1.0-1.0",
+		"frontmatter":{}
+	}
+}

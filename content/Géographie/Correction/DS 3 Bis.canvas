@@ -1,0 +1,31 @@
+{
+	"nodes":[
+		{"id":"9a27e1c193ebb037","x":-1100,"y":300,"width":1394,"height":876,"type":"group","label":"Correction DS 3"},
+		{"id":"fc8d3caeae05cc9f","type":"text","text":"Or ","x":-1080,"y":929,"width":250,"height":60},
+		{"id":"516737e648c5c8ba","type":"text","text":"Pas renouvelable du tout ","x":-1022,"y":806,"width":250,"height":60},
+		{"id":"d5fc308ddb855b23","type":"text","text":"Fossile ","x":-821,"y":658,"width":250,"height":60},
+		{"id":"1fefa4bd7f72c14b","type":"text","text":"Moins renouvelables ","x":-821,"y":1096,"width":250,"height":60},
+		{"id":"2e7bb11542301b20","type":"text","text":"recréer lentement ","x":-735,"y":806,"width":250,"height":60},
+		{"id":"0b9df99889c9a49f","type":"text","text":"Pétrole ","x":-735,"y":929,"width":250,"height":60},
+		{"id":"81054589d0706d3e","type":"text","text":"Ressources","x":-609,"y":490,"width":250,"height":60},
+		{"id":"84096f6c8529981c","type":"text","text":"Matières premières ","x":-429,"y":320,"width":250,"height":60},
+		{"id":"776519f203f7fab9","type":"text","text":"Autres ressources ","x":-121,"y":497,"width":250,"height":60},
+		{"id":"9da7f0df461cb692","type":"text","text":"Plus renouvelables ","x":24,"y":1096,"width":250,"height":60},
+		{"id":"6a6683d496f0a8e9","type":"text","text":"Renouvelable ","x":-336,"y":658,"width":250,"height":60},
+		{"id":"c4123f3e38c1d731","type":"text","text":"Ressources renouvelables qui sont illimités. Elles sont complètement renouvelable. \nLa consommation n'entraine pas la disparition","x":-109,"y":802,"width":266,"height":154},
+		{"id":"a01b869036eb826a","type":"text","text":"Recréer à une échelle humaine. Une condition de renouvelabilité ","x":-413,"y":802,"width":250,"height":120}
+	],
+	"edges":[
+		{"id":"f95bf85e9fe038aa","fromNode":"84096f6c8529981c","fromSide":"bottom","toNode":"81054589d0706d3e","toSide":"top"},
+		{"id":"09891ca1f7699b4e","fromNode":"81054589d0706d3e","fromSide":"bottom","toNode":"d5fc308ddb855b23","toSide":"top"},
+		{"id":"a20ae33a281636f6","fromNode":"81054589d0706d3e","fromSide":"bottom","toNode":"6a6683d496f0a8e9","toSide":"top"},
+		{"id":"64d0bccb86c2a383","fromNode":"84096f6c8529981c","fromSide":"bottom","toNode":"776519f203f7fab9","toSide":"top"},
+		{"id":"14a9641c9fabf470","fromNode":"1fefa4bd7f72c14b","fromSide":"right","toNode":"9da7f0df461cb692","toSide":"left"},
+		{"id":"505e469bc8e3673b","fromNode":"6a6683d496f0a8e9","fromSide":"bottom","toNode":"a01b869036eb826a","toSide":"top"},
+		{"id":"bb8f130567735cad","fromNode":"6a6683d496f0a8e9","fromSide":"bottom","toNode":"c4123f3e38c1d731","toSide":"top"},
+		{"id":"ce7c7ace2cf74651","fromNode":"d5fc308ddb855b23","fromSide":"bottom","toNode":"516737e648c5c8ba","toSide":"top"},
+		{"id":"9f2cf7258c5ae561","fromNode":"d5fc308ddb855b23","fromSide":"bottom","toNode":"2e7bb11542301b20","toSide":"top"},
+		{"id":"592aa7fc555e2471","fromNode":"516737e648c5c8ba","fromSide":"bottom","toNode":"fc8d3caeae05cc9f","toSide":"top"},
+		{"id":"5b4c1695b5f9722e","fromNode":"2e7bb11542301b20","fromSide":"bottom","toNode":"0b9df99889c9a49f","toSide":"top"}
+	]
+}

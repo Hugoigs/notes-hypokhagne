@@ -1,0 +1,1 @@
+https://www.mcours.net/cours/pdf/hascl2/bbgrhss2clic818.pdf

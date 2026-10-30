@@ -1,0 +1,25 @@
+{
+	"nodes":[
+		{"id":"d609a802ce78fc0d","x":-160,"y":-200,"width":250,"height":60,"type":"text","text":"Production et reproduction des inégalités "},
+		{"id":"63e59c3fe97e500d","x":-160,"y":-60,"width":250,"height":60,"type":"text","text":"Ecole / Famille / Territoires"},
+		{"id":"d6b565b843cf290e","x":-161,"y":104,"width":250,"height":60,"type":"text","text":"Revenus primaires "},
+		{"id":"75a2ec3f119e961a","x":-312,"y":255,"width":250,"height":60,"type":"text","text":"rev du L "},
+		{"id":"1321c078442f7182","x":19,"y":253,"width":250,"height":62,"type":"text","text":"rev du k "},
+		{"id":"a87f7763c88e0da0","x":-161,"y":360,"width":250,"height":60,"type":"text","text":"-Prélèvements obligatoires"},
+		{"id":"623215ac450bd81a","x":-161,"y":460,"width":250,"height":60,"type":"text","text":"+redistributions"},
+		{"id":"43a3d4767d9040c6","x":-460,"y":114,"width":250,"height":50,"type":"text","text":"MARCHE "},
+		{"id":"26ee6996fa5935e6","x":-620,"y":265,"width":250,"height":50,"type":"text","text":"Partage VA "}
+	],
+	"edges":[
+		{"id":"8a47ba3dda2897be","fromNode":"63e59c3fe97e500d","fromSide":"bottom","toNode":"d6b565b843cf290e","toSide":"top"},
+		{"id":"0b11ad57955185cf","fromNode":"d6b565b843cf290e","fromSide":"bottom","toNode":"75a2ec3f119e961a","toSide":"top"},
+		{"id":"86d05d90804b17c4","fromNode":"d6b565b843cf290e","fromSide":"bottom","toNode":"1321c078442f7182","toSide":"top"},
+		{"id":"b143f93f831cfa0e","fromNode":"75a2ec3f119e961a","fromSide":"bottom","toNode":"a87f7763c88e0da0","toSide":"top"},
+		{"id":"f957a46fb765c947","fromNode":"1321c078442f7182","fromSide":"bottom","toNode":"a87f7763c88e0da0","toSide":"top"},
+		{"id":"da6de1b7efb112e3","fromNode":"a87f7763c88e0da0","fromSide":"bottom","toNode":"623215ac450bd81a","toSide":"top"}
+	],
+	"metadata":{
+		"version":"1.0-1.0",
+		"frontmatter":{}
+	}
+}
